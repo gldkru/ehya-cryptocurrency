@@ -1,7 +1,10 @@
 @import 'general.css';
 
+/* Utils */
 @import 'grid.css';
+@import 'page.css';
 
+/* Block */
 @import 'header.css';
 @import 'footer.css';
 
