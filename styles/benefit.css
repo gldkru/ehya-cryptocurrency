@@ -1,0 +1,27 @@
+.benefit-block {
+	padding: 20px 40px;
+	margin-bottom: 40px;
+
+	/* test */
+	background: #ddd;
+}
+
+.benefit-block__icon {}
+
+.benefit-block__title {
+	font-family: 'HK Grotesk', sans-serif;
+	font-style: normal;
+	/* semibold */
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 32px;
+	letter-spacing: 0.2px;
+	color: #183B56;
+}
+
+.benefit-block__text {
+	font-size: 16px;
+	line-height: 28px;
+	color: #5A7184;
+	margin-top: 8px;
+}

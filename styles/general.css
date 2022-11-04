@@ -1,3 +1,30 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #183B56;
+}
+
+.page {
+	/* font-size: 16px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'HK Grotesk', sans-serif;
+}
+
+p {
+	margin: 0;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
