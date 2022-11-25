@@ -36,3 +36,25 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.d-none {
+	display: none !important;
+}
+
+.d-block {
+	display: block !important;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+@media screen and (min-width: 576px) {
+	.d-sm-none {
+		display: none !important;
+	}
+
+	.d-sm-block {
+		display: block !important;
+	}
+}
