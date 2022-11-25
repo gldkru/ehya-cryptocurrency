@@ -1,6 +1,6 @@
 .benefit-block {
 	padding: 20px 40px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 
 	/* test */
 	background: #ddd;
@@ -24,4 +24,10 @@
 	line-height: 28px;
 	color: #5A7184;
 	margin-top: 8px;
+}
+
+@media screen and (min-width: 992px) {
+	.benefit-block {
+		margin-bottom: 40px;
+	}
 }
