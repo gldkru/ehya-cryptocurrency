@@ -3,7 +3,9 @@
 }
 
 .custom-control {
-	padding: 5px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 1.5rem;
 }
 
 .custom-control__input {
@@ -12,8 +14,8 @@
 
 .custom-control__label {
 	line-height: 1.4;
-	display: flex;
 	cursor: pointer;
+	position: relative;
 }
 
 .custom-control__label::before {
@@ -26,9 +28,9 @@
 	border: 1px solid #C3CAD9;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.08);
 	margin-right: 10px;
-	flex-shrink: 0;
-	position: relative;
+	position: absolute;
   top: 0.2rem;
+	left: -1.5rem;
 }
 
 .custom-control__input:checked + .custom-control__label::before {
