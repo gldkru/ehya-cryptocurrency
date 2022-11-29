@@ -5,6 +5,8 @@
 @import 'page.css';
 @import 'table.css';
 
+@import 'custom-form.css';
+
 /* Block */
 @import 'header.css';
 @import 'footer.css';
